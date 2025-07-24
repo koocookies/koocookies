@@ -1,62 +1,109 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Koo Cookies</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #e0f7f5;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #fff;
-            padding: 20px;
-        }
-        header img {
-            max-width: 300px;
-        }
-        section {
-            padding: 20px;
-        }
-        .gallery img {
-            width: 100%;
-            max-width: 300px;
-            margin: 10px;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .whatsapp {
-            margin: 30px 0;
-            font-size: 18px;
-            background-color: #25d366;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 30px;
-            display: inline-block;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Koo Cookies</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background: #fef7ff;
+      color: #333;
+    }
+    header {
+      background-color: #a2e9e2;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      max-width: 220px;
+    }
+    h1 {
+      font-size: 2em;
+      color: #e86dbf;
+    }
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px 10px;
+      gap: 20px;
+    }
+    .galeria div {
+      width: 250px;
+      text-align: center;
+    }
+    .galeria img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .galeria p {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #f3d1f4;
+    }
+    .btn-wpp {
+      background-color: #25d366;
+      color: white;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="logo.jpg" alt="Logo Koo Cookies">
-    </header>
-    <section>
-        <h1>Bienvenidos a Koo Cookies</h1>
-        <p>Cookies rellenas irresistibles. Caseras, frescas y llenas de sabor.</p>
-        <div class="gallery">
-            <img src="cookie1.jpg" alt="Cookie 1">
-            <img src="cookie2.jpg" alt="Cookie 2">
-            <img src="cookie3.jpg" alt="Cookie 3">
-            <img src="cookie4.jpg" alt="Cookie 4">
-        </div>
-        <a class="whatsapp" href="https://wa.me/5491151620994" target="_blank">Hacenos tu pedido por WhatsApp</a>
-    </section>
+
+  <header>
+    <img src="logo.jpg" alt="Logo Koo Cookies">
+    <h1>¡Bienvenidos a Koo Cookies!</h1>
+    <p>Cookies rellenas artesanales con sabores únicos.</p>
+  </header>
+
+  <section class="galeria">
+    <div>
+      <img src="pistacho.jpg" alt="Cookie de Pistacho">
+      <p>Pistacho</p>
+    </div>
+    <div>
+      <img src="nuetella.jpg" alt="Cookie de Nutella">
+      <p>Nutella</p>
+    </div>
+    <div>
+      <img src="frambuesa2.jpg" alt="Cookie de Frambuesas">
+      <p>Frambuesas</p>
+    </div>
+    <div>
+      <img src="red velvet.jpg" alt="Cookie Red Velvet">
+      <p>Red Velvet</p>
+    </div>
+    <div>
+      <img src="maracuya.jpg" alt="Cookie Choco Maracuyá">
+      <p>Choco Maracuyá</p>
+    </div>
+    <div>
+      <img src="carrot.jpg" alt="Cookie de Carrot Cake">
+      <p>Carrot Cake</p>
+    </div>
+    <div>
+      <img src="mani caramelo.jpg" alt="Cookie Maní Caramelo">
+      <p>Maní Caramelo</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>¿Querés hacer tu pedido?</p>
+    <a class="btn-wpp" href="https://wa.me/5491151620994" target="_blank">📲 Escribinos al WhatsApp</a>
+  </footer>
+
 </body>
 </html>
